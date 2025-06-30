@@ -1,0 +1,13 @@
+#Preliminary version 0.1
+
+GET /resources/pools/{poolId}/availability
+Check availability in a specific resource pool.
+
+POST /resources/allocations/{allocationId}/extend
+Extend an existing resource allocation.
+
+PUT /resources/allocations/{allocationId}/limits
+Update resource limits for an allocation.
+
+DELETE /resources/allocations/{allocationId}/force
+Forcefully terminate an allocation.
